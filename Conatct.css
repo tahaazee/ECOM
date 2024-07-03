@@ -1,0 +1,40 @@
+/* src/components/ContactDetails.css */
+
+.contact-details {
+    padding: 20px;
+background-color: black;
+height: 700px;
+width: 103%;
+margin: -5px -23px -14px -37px;
+  }
+  
+  .contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+  }
+  
+  .details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
